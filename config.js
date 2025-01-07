@@ -25,7 +25,7 @@ global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "94787404891@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/srilanka";
 global.github = process.env.GITHUB || "";
 global.gurl = process.env.GURL || "";
 global.website = process.env.GURL || "";
@@ -77,7 +77,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "𝐂𝐓𝐌").toUpperCase(),
+  LANG: (process.env.THEME || "wasi").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
